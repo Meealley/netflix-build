@@ -1,0 +1,110 @@
+.homepage {
+  background: #000;
+  color: #fff;
+  margin: 0;
+}
+.header {
+  color: #fff;
+  width: 84%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/d54727b4-2ad9-4e71-bb48-0899f55f103a/8eff73e1-0024-4619-bdcd-4b1359ea0c58/NG-en-20230220-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+  object-fit: contain;
+}
+.nav_contents {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.nav_button {
+  position: fixed;
+  right: 20px;
+  /* width: 30px; */
+  padding: 10px 4rem;
+  height: 30px;
+  cursor: pointer;
+}
+.nav_button button {
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 17px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+  /* text-decoration: none; */
+  /* margin-left: 10px; */
+}
+
+.header_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
+.header_content h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+}
+.header_content h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.email_signup {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.email_signup input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+.email_signup button {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav_button {
+    padding: 8px 0.8rem;
+  }
+  .nav_button button {
+    padding: 5px 9px;
+    /* font-size: 7px; */
+  }
+  .header_content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .header_content h3 {
+    font-size: 16px;
+  }
+  .header_content p {
+    font-size: 13px;
+  }
+  .email_signup button {
+    font-size: 11px;
+    padding: 8px 20px;
+  }
+}

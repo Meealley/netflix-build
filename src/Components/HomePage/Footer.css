@@ -1,0 +1,26 @@
+.footer {
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  /* width: 100%; */
+  /* position: sticky; */
+  /* right: 0;
+  left: 0; */
+  bottom: 0;
+  color: #777;
+  text-transform: capitalize;
+}
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .row .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .row .col Link{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

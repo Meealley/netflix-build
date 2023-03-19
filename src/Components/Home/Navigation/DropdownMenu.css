@@ -1,0 +1,38 @@
+.dropdownprofile{
+    position: absolute;
+    top: 4.1rem;
+    right: 4rem;
+    width: 80px;
+    height: 120px;
+    padding: 15px;
+    color: #fff;
+    background-color: #777;
+    border-radius: 9px;
+    text-transform: capitalize;
+    transition: all .5s ease-in;
+}
+.dropdownprofile::before{
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+    content: " ";
+    width: 17px;
+    height: 30px;
+    transform: rotate(60deg);
+    background-color: #777;
+}
+
+.dropdownprofile .lists{
+    list-style: none;
+    display: grid;
+    margin: 10px 2px;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    margin-right: 10rem;
+    transition: all .5s ease;
+}
+.dropdownprofile .lists li{
+    margin-top: 10px;
+    cursor: pointer;
+}

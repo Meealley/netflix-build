@@ -1,0 +1,100 @@
+.signup {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  max-width: 300px;
+  /* height: 100vh; */
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  background: rgba(0, 0, 0, 0.68);
+  border-radius: 8px;
+}
+
+.signup > form {
+  display: grid;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+.signup > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 27px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup > form > button {
+  padding: 16px 20px;
+  background: #e50914;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.signup > form > h1 {
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.signup > form > .remb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+
+.signup > form > .remb > .rmb {
+  padding: 5px;
+  color: #777;
+}
+.signup > form > .remb > .rmb small {
+  padding-left: 5px;
+}
+.signup > form > .newto_netflix {
+  text-align: left;
+  margin-top: 50px;
+  color: #777;
+}
+.signup > form > .google_frm > small {
+  color: #777;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* media queries */
+@media screen and (min-width: 350px) {
+  .signup > form > .remb {
+    margin-top: 1px;
+  }
+  .signup > form > .newto_netflix {
+    margin-top: 10px;
+  }
+  .signup > form > input {
+    height: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .signup {
+    height: 50vh;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .signup > form > input {
+    height: 20px;
+    margin-bottom: 30px;
+  }
+  .footer{
+    font-size: 12px;
+  }
+}

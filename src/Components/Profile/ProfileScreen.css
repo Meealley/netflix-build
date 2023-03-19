@@ -1,0 +1,114 @@
+.profilescreen {
+  color: #fff;
+  height: 100vh;
+  /* background: #111; */
+}
+
+.profile_screen-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  width: 800px;
+}
+
+.profile_screen-info {
+  display: flex;
+}
+.profile_screen-body > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  border-bottom: 1px solid #202c2d;
+  margin-bottom: 20px;
+}
+
+.profile_screen-info > img {
+  height: 100px;
+}
+.profile_screen-details {
+  color: #fff;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profile_screen-details > h2 {
+  background-color: grey;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.profile_screen-signout {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  background-color: #e50914;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.profile_screen-plans {
+  margin-top: 20px;
+}
+
+.profile_screen-plans > h3 {
+  border-bottom: 1px solid #202c2d;
+  padding-bottom: 10px;
+}
+div > .planscreen_plan {
+    padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+div > .planscreen_plan button{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .profile_screen-info > img {
+    height: 50px;
+    display: none;
+  }
+  .profile_screen-body {
+    width: 300px;
+    margin-left: 0;
+  }
+  .planscreen_plan {
+    padding-top: 30px;
+  }
+  .profile_screen-details {
+    flex: 0;
+  }
+  .profile_screen-details > h2 {
+    margin-right: 20px;
+  }
+  .profile_screen-signout {
+    padding-right: 40px;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 13%;
+  }
+  .profile_screen-body > h1 {
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  div > .planscreen_plan > .planscreen_info > h3{
+    display: none;
+  }
+  div > .planscreen_plan > .planscreen_info > h5{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  div > .planscreen_plan > .planscreen_info > button {
+    padding-left: 20px;
+    padding: 5px;
+  }
+}
